@@ -1,0 +1,3 @@
+## Euler project
+
+### Solutions
