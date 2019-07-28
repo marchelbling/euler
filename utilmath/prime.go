@@ -15,7 +15,7 @@ func IsPrime(value int64) bool {
 		return false
 	}
 
-	for i := int64(3); i < max; i = i + 2 {
+	for i := int64(3); i <= max; i = i + 2 {
 		if value%i == 0 {
 			return false
 		}

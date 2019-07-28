@@ -16,6 +16,7 @@ func TestIsPrime(t *testing.T) {
 		{3, true},
 		{4, false},
 		{6, false},
+		{9, false},
 		{17, true},
 		{600851475143, false},
 	} {
