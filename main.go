@@ -17,5 +17,5 @@ func AnswerFor(fn func() int64) {
 }
 
 func main() {
-	AnswerFor(solutions.Problem14)
+	AnswerFor(solutions.Problem15)
 }
